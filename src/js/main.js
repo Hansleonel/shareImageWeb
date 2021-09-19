@@ -10,8 +10,8 @@
     /* global ScrollReveal */
     const sr = window.sr = ScrollReveal();
 
-
-    var SO = getOS();
+    var SO = 'dd';
+    SO = getOS();
     console.log("************+");
     console.log("VALUE" +SO);
     console.log("*************");
