@@ -10,8 +10,7 @@
     /* global ScrollReveal */
     const sr = window.sr = ScrollReveal();
 
-
-    // var SO = getOS();
+    var SO = getOS();
 
     console.log("************+");
     console.log("VALUE" +SO);
@@ -99,8 +98,8 @@ function getOS() {
     os = 'Android';
   } else if (!os && /Linux/.test(platform)) {
     os = 'Linux';
-    window.location.Replace = "https://google.com/";
+    // window.location.Replace = "https://google.com/";
   }
 
-  // return os;
+  return os;
 }
