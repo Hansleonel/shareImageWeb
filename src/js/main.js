@@ -12,11 +12,11 @@
 
 
     var SO = getOS();
+
     console.log("************+");
     console.log("VALUE" +SO);
     console.log("*************");
 
-    alert(SO);
 
     sr.reveal('.feature, .pricing-table-inner', {
       duration: 600,
@@ -75,6 +75,9 @@
       opacity: [0, 1],
       easing: 'easeInOutExpo'
     });
+
+
+    alert(getOS());
   }
 }());
 
