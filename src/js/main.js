@@ -12,8 +12,9 @@
 
 
     var SO = getOS();
-
+    console.log("************+");
     console.log("VALUE" +SO);
+    console.log("*************");
 
     sr.reveal('.feature, .pricing-table-inner', {
       duration: 600,
