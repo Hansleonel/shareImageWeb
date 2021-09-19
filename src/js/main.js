@@ -10,12 +10,11 @@
     /* global ScrollReveal */
     const sr = window.sr = ScrollReveal();
 
-    var SO = getOS();
 
+    var SO = getOS();
     console.log("************+");
     console.log("VALUE" +SO);
     console.log("*************");
-
 
     sr.reveal('.feature, .pricing-table-inner', {
       duration: 600,
@@ -74,9 +73,6 @@
       opacity: [0, 1],
       easing: 'easeInOutExpo'
     });
-
-
-    // alert(getOS());
   }
 }());
 
@@ -98,7 +94,6 @@ function getOS() {
     os = 'Android';
   } else if (!os && /Linux/.test(platform)) {
     os = 'Linux';
-    // window.location.Replace = "https://google.com/";
   }
 
   return os;
