@@ -10,6 +10,8 @@
     /* global ScrollReveal */
     const sr = window.sr = ScrollReveal();
 
+    console.log(win.navigator);
+
     sr.reveal('.feature, .pricing-table-inner', {
       duration: 600,
       distance: '20px',
