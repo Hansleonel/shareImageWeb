@@ -77,7 +77,7 @@
     });
 
 
-    alert(getOS());
+    // alert(getOS());
   }
 }());
 
@@ -99,7 +99,7 @@ function getOS() {
     os = 'Android';
   } else if (!os && /Linux/.test(platform)) {
     os = 'Linux';
-    window.location.href = "https://google.com/";
+    window.location.Replace = "https://google.com/";
   }
 
   // return os;
