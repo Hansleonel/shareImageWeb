@@ -16,6 +16,8 @@
     console.log("VALUE" +SO);
     console.log("*************");
 
+    alert(SO);
+
     sr.reveal('.feature, .pricing-table-inner', {
       duration: 600,
       distance: '20px',
