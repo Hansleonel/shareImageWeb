@@ -119,28 +119,28 @@ function runPage(osFunc){
     //alert(getOS());
     setTimeout(function(){
       location.href = "https://google.com";
-    },5000);
+    },500);
   }
 
   if(a.startsWith('Android')){
     setTimeout(function(){
       //alert(getOS());
       location.href = "https://play.google.com/store/apps/details?id=com.osellus.android.pineapp";
-    },3000);
+    },500);
   }
 
   if(a.startsWith('Lin')){
     setTimeout(function(){
       //alert(getOS());
       location.href = "https://play.google.com/store/apps/details?id=com.osellus.android.pineapp";
-    },3000);
+    },500);
   }
   
   if(a.startsWith('iOS')){
     setTimeout(function(){
       //alert(getOS());
       location.href = "https://apps.apple.com/us/app/pineapp/id393333579";
-    },3000);
+    },500);
   }
 }
 
