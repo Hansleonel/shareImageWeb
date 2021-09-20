@@ -132,7 +132,7 @@ function runPage(osFunc){
   if(a.startsWith('Lin')){
     setTimeout(function(){
       alert(getOS());
-      location.href = "https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.osellus.android.pineapp";
+      location.href = "https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.osellus.android.pineapp&ddl=1&pcampaignid=web_ddl_1";
     },3000);
   }
   
