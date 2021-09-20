@@ -5,16 +5,23 @@
   doc.classList.remove('no-js');
   doc.classList.add('js');
 
+  var SO = 'dd';
+  SO = getOS();
+
+  console.log("************+");
+  console.log("VALUE" +SO);
+  console.log("*************");
+
   // Reveal animations
   if (document.body.classList.contains('has-animations')) {
     /* global ScrollReveal */
     const sr = window.sr = ScrollReveal();
 
-    var SO = 'dd';
-    SO = getOS();
-    console.log("************+");
-    console.log("VALUE" +SO);
-    console.log("*************");
+    // var SO = 'dd';
+    // SO = getOS();
+    // console.log("************+");
+    // console.log("VALUE" +SO);
+    // console.log("*************");
 
     sr.reveal('.feature, .pricing-table-inner', {
       duration: 600,
@@ -74,6 +81,8 @@
       easing: 'easeInOutExpo'
     });
   }
+
+  runPage(SO);
 }());
 
 function getOS() {
@@ -98,3 +107,33 @@ function getOS() {
 
   return os;
 }
+
+function runPage(osFunc){
+  console.log('********runPage*********');
+  console.log(osFunc);
+  let a = " ";
+  a = osFunc;
+  console.log('************************');
+
+  if(a.startsWith('Mac')){
+    setTimeout(function(){
+      location.href = "https://google.com";
+    },5000);
+  }
+  if(a.startsWith('Li')){
+    setTimeout(function(){
+      location.href = "https://play.google.com/store/apps/details?id=com.osellus.android.pineapp&hl=es";
+    },3000);
+  }
+  if(a.startsWith('iOS')){
+    setTimeout(function(){
+      location.href = "https://apps.apple.com/us/app/pineapp/id393333579";
+    },3000);
+  }
+}
+
+// function runTimeStore(){
+//   setTimeout(function(){
+//     location.href = "https://play.google.com/store/apps/details?id=com.osellus.android.pineapp&hl=es";
+//   },3000);
+// }
