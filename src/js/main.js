@@ -101,8 +101,10 @@ function getOS() {
     os = 'Windows';
   } else if (/Android/.test(userAgent)) {
     os = 'Android';
+    alert('Android');
   } else if (!os && /Linux/.test(platform)) {
     os = 'Linux';
+    alert('Linux');
   }
 
   return os;
