@@ -3,6 +3,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 body {
     background-image: url("https://i.imgur.com/0SxaXUB.png");
     background-color: #cccccc;
+    background-repeat: no-repeat;
    }
 
 
