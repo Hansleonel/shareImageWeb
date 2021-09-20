@@ -125,14 +125,14 @@ function runPage(osFunc){
   if(a.startsWith('Android')){
     setTimeout(function(){
       alert(getOS());
-      location.href = "https://play.google.com/store/apps/details?id=com.osellus.android.pineapp&hl=es";
+      location.href = "https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.osellus.android.pineapp";
     },3000);
   }
 
   if(a.startsWith('Lin')){
     setTimeout(function(){
       alert(getOS());
-      location.href = "https://play.google.com/store/apps/details?id=com.osellus.android.pineapp&hl=es";
+      location.href = "https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.osellus.android.pineapp";
     },3000);
   }
   
