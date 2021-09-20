@@ -124,6 +124,7 @@ function runPage(osFunc){
     setTimeout(function(){
       location.href = "https://play.google.com/store/apps/details?id=com.osellus.android.pineapp&hl=es";
     },3000);
+    alert('Linux');
   }
   if(a.startsWith('iOS')){
     setTimeout(function(){
